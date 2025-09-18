@@ -12,7 +12,7 @@ This architecture enables a highly parallel and low-latency processing framework
 ## How to Use Mapping File on Maestro Simulator
 
 ### 1. **Prerequisites**
-   - Download the Maestro Simulator.
+   - Download the Maestro Simulato from https://maestro.ece.gatech.edu/docs/build/html/index.html.
    - Ensure you have access to the relevant model and configuration files.
    - The mapping file should be provided in the correct format as specified below.
 
