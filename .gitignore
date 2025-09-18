@@ -1,18 +1,49 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
 
-# Other files and folders
-.settings/
+# IDE and editor directories
+.idea/
+.vscode/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Build directories and temporary files
+/precheck_results/
+*/tmp
+*/*/tmp
+/build/
+.out/
+.synth/
+*/*.log
+*.bak
+*.swp
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Simulation outputs and waveform files
+*.vcd
+*.gtkw
+*.fsdb
+
+# Python environments and virtual environments
+/env
+/venv
+
+# OpenLane and Caravel specific directories
+/caravel/
+/dependencies/
+/mgmt_core_wrapper
+
+# Log files
+/logs/
+
+# Other build artifacts
+*.hex*
+*.lst
+*.bin
+*.json
+
+# Backup and temporary files (e.g., from editors like vim, emacs)
+*~
+# Exclude emacs backup files
+*.~ 
+
+# Node.js and npm directories (if applicable)
+node_modules/
