@@ -1,3 +1,8 @@
+<table>
+  <tr>
+    <td align="center"><img src="bm-lab-logo-white.jpg" alt="BM LABS Logo" width="200"/></td>
+    
+</table>
 
 # BM Labs Model Compilation and Execution
 
